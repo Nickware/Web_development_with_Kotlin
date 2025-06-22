@@ -11,7 +11,7 @@ data class Estudiante(
     fun agregarMateria(materia: String) {
         if (materia.isNotBlank()) {
             materias.add(materia)
-            println("✅ Materia '$materia' agregada para $nombre")
+            println("Materia '$materia' agregada para $nombre")
         }
     }
 
@@ -19,13 +19,13 @@ data class Estudiante(
     fun actualizarPromedio(calificaciones: List<Double>) {
         if (calificaciones.isNotEmpty()) {
             promedio = calificaciones.average()
-            println("📊 Promedio actualizado para $nombre: ${"%.2f".format(promedio)}")
+            println(" Promedio actualizado para $nombre: ${"%.2f".format(promedio)}")
         }
     }
 
     // Función para mostrar información del estudiante
     fun mostrarInfo() {
-        println("\n👤 Información del Estudiante:")
+        println("\n Información del Estudiante:")
         println("   Nombre: $nombre")
         println("   Edad: $edad años")
         println("   Materias: ${materias.joinToString(", ")}")
@@ -39,7 +39,7 @@ class GestorEstudiantes {
 
     fun agregarEstudiante(estudiante: Estudiante) {
         estudiantes.add(estudiante)
-        println("🎓 Estudiante ${estudiante.nombre} agregado al sistema")
+        println(" Estudiante ${estudiante.nombre} agregado al sistema")
     }
 
     fun buscarEstudiante(nombre: String): Estudiante? {
@@ -48,11 +48,11 @@ class GestorEstudiantes {
 
     fun mostrarTodosLosEstudiantes() {
         if (estudiantes.isEmpty()) {
-            println("❌ No hay estudiantes registrados")
+            println(" No hay estudiantes registrados")
             return
         }
 
-        println("\n📋 Lista de todos los estudiantes:")
+        println("\n Lista de todos los estudiantes:")
         estudiantes.forEach { it.mostrarInfo() }
     }
 
@@ -66,7 +66,7 @@ class GestorEstudiantes {
         val promedioGeneral = estudiantes.map { it.promedio }.average()
         val totalMaterias = estudiantes.sumOf { it.materias.size }
 
-        println("\n📈 Estadísticas del Sistema:")
+        println("\n Estadísticas del Sistema:")
         println("   Total de estudiantes: ${estudiantes.size}")
         println("   Promedio general: ${"%.2f".format(promedioGeneral)}")
         println("   Total de materias registradas: $totalMaterias")
@@ -78,7 +78,7 @@ fun Int.esEdadValida(): Boolean = this in 15..100
 
 // Función main - punto de entrada del programa
 fun main() {
-    println("🏫 Sistema de Gestión de Estudiantes")
+    println(" Sistema de Gestión de Estudiantes")
     println("=====================================")
 
     // Crear instancia del gestor
@@ -94,7 +94,7 @@ fun main() {
         if (estudiante.edad.esEdadValida()) {
             gestor.agregarEstudiante(estudiante)
         } else {
-            println("⚠️ Edad inválida para ${estudiante.nombre}")
+            println("⚠ Edad inválida para ${estudiante.nombre}")
         }
     }
 
@@ -123,22 +123,22 @@ fun main() {
     gestor.mostrarTodosLosEstudiantes()
 
     // Buscar un estudiante específico
-    println("\n🔍 Buscando estudiante 'Ana García':")
+    println("\n Buscando estudiante 'Ana García':")
     val estudianteEncontrado = gestor.buscarEstudiante("Ana García")
-    estudianteEncontrado?.mostrarInfo() ?: println("❌ Estudiante no encontrado")
+    estudianteEncontrado?.mostrarInfo() ?: println(" Estudiante no encontrado")
 
     // Mostrar el mejor estudiante
-    println("\n🏆 Mejor estudiante:")
+    println("\n Mejor estudiante:")
     val mejorEstudiante = gestor.obtenerMejorEstudiante()
     mejorEstudiante?.let {
-        println("🥇 ${it.nombre} con promedio de ${"%.2f".format(it.promedio)}")
+        println(" ${it.nombre} con promedio de ${"%.2f".format(it.promedio)}")
     }
 
     // Mostrar estadísticas
     gestor.obtenerEstadisticas()
 
     // Demostrar algunas características de Kotlin
-    println("\n🔧 Demostrando características de Kotlin:")
+    println("\n Demostrando características de Kotlin:")
 
     // Funciones de orden superior
     val nombresEstudiantes = listOf("Ana", "Carlos", "María")
@@ -163,7 +163,7 @@ fun main() {
     val estudianteOpcional: Estudiante? = gestor.buscarEstudiante("Pedro")
     estudianteOpcional?.let {
         println("   Estudiante encontrado: ${it.nombre}")
-    } ?: println("   ℹ️ Estudiante 'Pedro' no existe en el sistema")
+    } ?: println("  Estudiante 'Pedro' no existe en el sistema")
 
-    println("\n✨ ¡Ejemplo completado! Tu IntelliJ IDEA está funcionando correctamente.")
+    println("\n ¡Ejemplo completado! IntelliJ IDEA está funcionando correctamente.")
 }
