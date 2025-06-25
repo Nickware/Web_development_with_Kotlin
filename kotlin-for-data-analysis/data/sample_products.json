@@ -1,0 +1,14 @@
+[
+  {"id": 101, "name": "Smartphone", "category": "Electronics", "price": 299.99},
+  {"id": 102, "name": "T-Shirt", "category": "Clothing", "price": 19.99},
+  {"id": 103, "name": "Laptop", "category": "Electronics", "price": 899.99},
+  {"id": 104, "name": "Programming Book", "category": "Books", "price": 45.99},
+  {"id": 105, "name": "Tablet", "category": "Electronics", "price": 399.99},
+  {"id": 106, "name": "Jeans", "category": "Clothing", "price": 79.99},
+  {"id": 107, "name": "Data Science Book", "category": "Books", "price": 89.99},
+  {"id": 108, "name": "Gaming Console", "category": "Electronics", "price": 499.99},
+  {"id": 109, "name": "Novel", "category": "Books", "price": 12.99},
+  {"id": 110, "name": "Jacket", "category": "Clothing", "price": 129.99},
+  {"id": 111, "name": "Smartwatch", "category": "Electronics", "price": 299.99},
+  {"id": 112, "name": "Sneakers", "category": "Clothing", "price": 89.99}
+]
