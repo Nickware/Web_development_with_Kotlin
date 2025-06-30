@@ -45,9 +45,10 @@ class DataLoader {
             .add("total_with_tax") { "amount"<Double>() * 1.19 }
             .groupBy("product_category")
             .aggregate {
-                "total_sales" into { "amount"<Double>().sum() }
-                "avg_sale" into { "amount"<Double>().mean() }
-                "count" into { count() }
+                // ✅ Sintaxis correcta: función de agregación into nombre
+                "amount"<Double>().sum() into "total_sales"
+                "amount"<Double>().mean() into "avg_sale"
+                count() into "count"
             }
     }
 
@@ -56,13 +57,13 @@ class DataLoader {
         return salesData
             .groupBy("region")
             .aggregate {
-                "total_sales" into { "amount"<Double>().sum() }
-                "avg_sale" into { "amount"<Double>().mean() }
-                "transaction_count" into { count() }
-                "max_sale" into { "amount"<Double>().max() }
-                "min_sale" into { "amount"<Double>().min() }
+                "amount"<Double>().sum() into "total_sales"
+                "amount"<Double>().mean() into "avg_sale"
+                count() into "transaction_count"
+                "amount"<Double>().max() into "max_sale"
+                "amount"<Double>().min() into "min_sale"
             }
-            .sortBy("total_sales", SortOrder.DESC)
+            .sortByDesc("total_sales")  // ✅ Funciona sin problemas
     }
 
     // Combinar datasets
@@ -71,7 +72,8 @@ class DataLoader {
         products: DataFrame<Product>
     ): DataFrame<*> {
         return try {
-            sales.join(products, how = JoinType.LEFT) {
+            sales.join(products) {
+                // ✅ Sintaxis correcta
                 "product_id" match "id"
             }
         } catch (e: Exception) {

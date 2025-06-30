@@ -1,0 +1,5 @@
+/home/jntorresr/IdeaProjects/kotlin-for-data-analysis/src/main/kotlin/Main.kt
+/home/jntorresr/IdeaProjects/kotlin-for-data-analysis/src/main/kotlin/DataVisualizer.kt
+/home/jntorresr/IdeaProjects/kotlin-for-data-analysis/src/main/kotlin/DatabaseAnalyzer.kt
+/home/jntorresr/IdeaProjects/kotlin-for-data-analysis/src/main/kotlin/ApiDataFetcher.kt
+/home/jntorresr/IdeaProjects/kotlin-for-data-analysis/src/main/kotlin/DataLoader.kt
