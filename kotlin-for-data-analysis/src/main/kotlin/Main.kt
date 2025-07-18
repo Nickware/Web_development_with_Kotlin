@@ -8,16 +8,16 @@ class DataAnalysisApp {
     private val visualizer = DataVisualizer()
 
     suspend fun runCompleteAnalysis() {
-        println("🚀 Iniciando análisis completo de datos con Kotlin")
+        println(" Iniciando análisis completo de datos con Kotlin")
         println("=" * 60)
 
         try {
             // 1. CARGA Y TRANSFORMACIÓN DE DATOS LOCALES
-            println("\n📁 FASE 1: Cargando datos CSV y JSON...")
+            println("\n FASE 1: Cargando datos CSV y JSON...")
             val salesData = dataLoader.loadSalesData("data/sample_sales.csv")
             val productData = dataLoader.loadProductData("data/sample_products.json")
 
-            println("✅ Datos cargados:")
+            println(" Datos cargados:")
             println("   - Sales: ${salesData.rowsCount()} filas, ${salesData.columnsCount()} columnas")
             println("   - Products: ${productData.rowsCount()} filas, ${productData.columnsCount()} columnas")
 
@@ -25,10 +25,10 @@ class DataAnalysisApp {
             val cleanedSales = dataLoader.cleanAndTransformSalesData(salesData)
             val regionAnalysis = dataLoader.analyzeByRegion(salesData)
 
-            println("✅ Transformaciones completadas")
+            println(" Transformaciones completadas")
 
             // 2. ANÁLISIS DE BASE DE DATOS
-            println("\n🗄️ FASE 2: Analizando datos de base de datos...")
+            println("\n FASE 2: Analizando datos de base de datos...")
             dbAnalyzer.initDatabase()
 
             val customerAnalysis = dbAnalyzer.analyzeCustomerSales()
@@ -36,32 +36,32 @@ class DataAnalysisApp {
             val categoryAnalysis = dbAnalyzer.getCategoryAnalysis()
             val customerSummary = dbAnalyzer.getCustomerSummary()
 
-            println("✅ Análisis de BD completado:")
+            println(" Análisis de BD completado:")
             println("   - Customer Analysis: ${customerAnalysis.rowsCount()} registros")
             println("   - Top Regions: ${topRegions.rowsCount()} registros")
             println("   - Category Analysis: ${categoryAnalysis.rowsCount()} registros")
 
             // 3. OBTENCIÓN DE DATOS DE APIs
-            println("\n🌐 FASE 3: Obteniendo datos de APIs...")
+            println("\n FASE 3: Obteniendo datos de APIs...")
             val cryptoData = apiFetcher.fetchCryptoData()
             val postsData = apiFetcher.fetchPostsData()
 
-            println("✅ Datos de APIs obtenidos:")
+            println(" Datos de APIs obtenidos:")
             println("   - Crypto: ${cryptoData.rowsCount()} registros")
             println("   - Posts: ${postsData.rowsCount()} registros")
 
             // 4. MONITOREO EN TIEMPO REAL (ejecutar en background)
-            println("\n⏱️ FASE 4: Iniciando monitoreo en tiempo real...")
+            println("\n FASE 4: Iniciando monitoreo en tiempo real...")
             val monitoringJob = launch {
                 apiFetcher.monitorCryptoPrices(30).collect { data ->
-                    println("📊 Actualización crypto en tiempo real: ${data.rowsCount()} monedas")
+                    println(" Actualización crypto en tiempo real: ${data.rowsCount()} monedas")
                     // Crear visualización actualizada
                     visualizer.createCryptoPriceChart(data, "charts/crypto_realtime.html")
                 }
             }
 
             // 5. CREACIÓN DE VISUALIZACIONES
-            println("\n📈 FASE 5: Generando visualizaciones...")
+            println("\n FASE 5: Generando visualizaciones...")
 
             // Crear visualizaciones principales
             visualizer.createSalesBarChart(regionAnalysis)
@@ -81,35 +81,35 @@ class DataAnalysisApp {
             // Crear dashboard completo
             visualizer.createDashboard(regionAnalysis, cryptoData, customerSummary)
 
-            println("✅ Visualizaciones creadas en la carpeta 'charts/'")
+            println(" Visualizaciones creadas en la carpeta 'charts/'")
 
             // 6. ANÁLISIS ESTADÍSTICO Y REPORTES
-            println("\n📊 FASE 6: Generando reportes estadísticos...")
+            println("\n FASE 6: Generando reportes estadísticos...")
             generateStatisticalReport(salesData, cryptoData, customerAnalysis, categoryAnalysis)
 
             // 7. EXPORTAR RESULTADOS
-            println("\n💾 FASE 7: Exportando resultados...")
+            println("\n FASE 7: Exportando resultados...")
             exportResults(regionAnalysis, cryptoData, customerSummary)
 
             // Mantener monitoreo por un tiempo limitado
-            println("\n⏳ Monitoreo en tiempo real activo por 2 minutos...")
+            println("\n Monitoreo en tiempo real activo por 2 minutos...")
             delay(120000) // 2 minutos
 
             monitoringJob.cancel()
-            println("🔄 Monitoreo finalizado")
+            println(" Monitoreo finalizado")
 
         } catch (e: Exception) {
-            println("❌ Error durante el análisis: ${e.message}")
+            println(" Error durante el análisis: ${e.message}")
             e.printStackTrace()
         } finally {
             apiFetcher.close()
-            println("\n🎉 Análisis completo finalizado")
-            println("🌐 Abrir charts/dashboard_index.html para ver el dashboard")
+            println("\n Análisis completo finalizado")
+            println(" Abrir charts/dashboard_index.html para ver el dashboard")
         }
     }
 
     private fun generateStatisticalReport(vararg datasets: DataFrame<*>) {
-        println("\n📋 REPORTE ESTADÍSTICO:")
+        println("\n REPORTE ESTADÍSTICO:")
         println("=" * 50)
 
         datasets.forEachIndexed { index, data ->
@@ -126,19 +126,19 @@ class DataAnalysisApp {
             val salesData = datasets[0]
             if (salesData.columnNames().contains("amount")) {
                 val amounts = salesData["amount"].values().map { it.toString().toDouble() }
-                println("📊 Estadísticas de Ventas:")
+                println(" Estadísticas de Ventas:")
                 println("  - Total: ${amounts.sum()}")
                 println("  - Promedio: ${amounts.average()}")
                 println("  - Máximo: ${amounts.maxOrNull()}")
                 println("  - Mínimo: ${amounts.minOrNull()}")
             }
         } catch (e: Exception) {
-            println("⚠️ No se pudieron calcular estadísticas específicas")
+            println("⚠ No se pudieron calcular estadísticas específicas")
         }
     }
 
     private fun exportResults(vararg datasets: DataFrame<*>) {
-        println("💾 Exportando datasets principales...")
+        println(" Exportando datasets principales...")
 
         try {
             // Crear directorio de exportación
@@ -150,15 +150,15 @@ class DataAnalysisApp {
                 println("  - Dataset ${index + 1}: ${data.rowsCount()} filas preparadas para exportar")
             }
 
-            println("✅ Datos preparados para exportación en carpeta 'exports/'")
+            println(" Datos preparados para exportación en carpeta 'exports/'")
         } catch (e: Exception) {
-            println("⚠️ Error en exportación: ${e.message}")
+            println(" Error en exportación: ${e.message}")
         }
     }
 }
 
 suspend fun main() {
-    println("🌟 KOTLIN DATA ANALYSIS PROJECT")
+    println(" KOTLIN DATA ANALYSIS PROJECT")
     println("Desarrollado con Kotlin DataFrame, Kandy, Ktor y Exposed")
     println()
 
