@@ -2,7 +2,7 @@
 
 ## ¿Qué es Kotlin?
 
-Kotlin is a concise and multiplatform programming language by JetBrains que se ha convertido en uno de los lenguajes más populares para el desarrollo de aplicaciones móviles, backend, web y desktop. Desarrollado por JetBrains, Kotlin is a concise multiplatform language developed by JetBrains and contributors.
+Kotlin es un lenguaje de programación conciso y multiplataforma de JetBrains que se ha convertido en uno de los lenguajes más populares para el desarrollo de aplicaciones móviles, backend, web y escritorio. Desarrollado por JetBrains, Kotlin es un lenguaje multiplataforma conciso desarrollado por JetBrains y sus colaboradores.
 
 ## Características Principales
 
@@ -59,7 +59,7 @@ Kotlin incluye soporte nativo para programación asíncrona mediante corrutinas,
 
 ### 1. Desarrollo Android
 
-Since the release of Android Studio 3.0 in October 2017, Kotlin has been included as an alternative to the standard Java compiler. Google ha adoptado Kotlin como lenguaje preferido para Android, y la mayoría de aplicaciones nuevas se desarrollan en Kotlin.
+Desde el lanzamiento de Andro id Studio 3.0 en octubre de 2017, Kotlin se ha incluido como alternativa al compilador estándar de Java. Google ha adoptado Kotlin como lenguaje preferido para Android, y la mayoría de aplicaciones nuevas se desarrollan en Kotlin.
 
 ### 2. Desarrollo Backend
 
@@ -70,7 +70,7 @@ Kotlin/JVM permite crear aplicaciones server-side robustas usando frameworks pop
 
 ### 3. Desarrollo Multiplataforma
 
-Support for multiplatform programming is one of Kotlin's key benefits. It reduces time spent writing and maintaining the same code for different platforms while retaining the flexibility. Kotlin Multiplatform allows development for not only Android but also iOS, backend, and web applications.
+La compatibilidad con la programación multiplataforma es una de las principales ventajas de Kotlin. Reduce el tiempo dedicado a escribir y mantener el mismo código para diferentes plataformas, manteniendo al mismo tiempo la flexibilidad. Kotlin Multiplataforma permite el desarrollo no solo para Android, sino también para iOS, aplicaciones backend y web.
 
 ### 4. Desarrollo Web
 
@@ -89,7 +89,7 @@ Support for multiplatform programming is one of Kotlin's key benefits. It reduce
 
 ## Herramientas de Desarrollo
 
-JetBrains provides the official Kotlin support for the following IDEs and code editors: IntelliJ IDEA and Android Studio. Las principales opciones son:
+JetBrains proporciona compatibilidad oficial con Kotlin para los siguientes IDE y editores de código: IntelliJ IDEA y Android Studio. Las principales opciones son:
 
 - **IntelliJ IDEA**: IDE principal con soporte completo
 - **Android Studio**: Para desarrollo Android
@@ -98,8 +98,8 @@ JetBrains provides the official Kotlin support for the following IDEs and code e
 
 ## Ecosistema y Comunidad
 
-- **Código abierto**: Kotlin is an Apache 2 OSS Project. The source code, tooling, documentation and even this web site is maintained on GitHub
-- **Comunidad activa**: While the majority of the team works at JetBrains, there have been nearly a hundred external contributors
+- **Código abierto**: Kotlin es un proyecto Apache 2 OSS. El código fuente, las herramientas, la documentación e incluso este sitio web se mantienen en GitHub.
+- **Comunidad activa**: Si bien la mayoría del equipo trabaja en JetBrains, ha habido casi un centenar de colaboradores externos.
 - **Documentación oficial**: [kotlinlang.org](https://kotlinlang.org)
 - **GitHub**: [github.com/JetBrains/kotlin](https://github.com/JetBrains/kotlin)
 
