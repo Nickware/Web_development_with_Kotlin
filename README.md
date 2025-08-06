@@ -10,8 +10,8 @@ Kotlin es un lenguaje de programación conciso y multiplataforma de JetBrains qu
 
 Kotlin es un lenguaje de programación estatico que compila a bytecode de Java, lo que garantiza una **interoperabilidad completa con Java**. Esto significa que:
 
-- Puedes usar código Java existente desde Kotlin
-- Puedes llamar código Kotlin desde Java
+- Puede usar código Java existente desde Kotlin
+- Puede llamar código Kotlin desde Java
 - Ambos lenguajes pueden coexistir en el mismo proyecto
 - Kotlin is an open source project available at no charge under the Apache 2.0 license
 
