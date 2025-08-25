@@ -50,7 +50,7 @@ Este proyecto implementa un sistema de quiz interactivo que presenta preguntas a
 
 ### Alternativas de Ejecución
 1. **IntelliJ IDEA** (más fácil para principiantes)
-2. **Android Studio** (si planeas expandir a móvil)
+2. **Android Studio** (si se planea expandir a móvil)
 3. **VS Code** con extensión de Kotlin
 4. **Línea de comandos** con kotlinc
 
@@ -181,7 +181,7 @@ Este proyecto implementa un sistema de quiz interactivo que presenta preguntas a
    Preguntas respondidas: 5
    Respuestas correctas: 4
    Puntuación: 80.0%
-   👍 ¡Muy bien! Tienes buenos conocimientos
+   👍 ¡Muy bien! Tiene buenos conocimientos
    ```
 
 ### Comandos Durante la Ejecución
@@ -331,11 +331,11 @@ enum class Categoria {
 
 ## 📞 Contacto y Soporte
 
-¿Tienes preguntas o sugerencias? 
+¿Tiene preguntas o sugerencias? 
 - 📧 Crear un **Issue** en GitHub
 - 💬 Contribuir con **Pull Requests**
 - 📖 Revisar la **documentación** en el código
 
 ---
 
-**¡Diviértete aprendiendo programación y física al mismo tiempo! 🚀🧪**
+**¡Diviertase aprendiendo programación y física al mismo tiempo! 🚀🧪**
