@@ -1,8 +1,8 @@
-# 🖖 Piedra, Papel, Tijeras, Lagarto, Spock
+#  Piedra, Papel, Tijeras, Lagarto, Spock
 
 Un juego de consola desarrollado en Kotlin basado en la versión expandida del clásico "Piedra, Papel, Tijeras" popularizada por el personaje Sheldon Cooper en la serie de televisión "The Big Bang Theory". Este proyecto está diseñado para estudiantes de programación de nivel principiante que desean practicar conceptos fundamentales mientras se divierten con un juego icónico de la cultura pop.
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 
 - [Origen del Juego](#-origen-del-juego)
 - [Descripción del Proyecto](#-descripción-del-proyecto)
@@ -17,7 +17,7 @@ Un juego de consola desarrollado en Kotlin basado en la versión expandida del c
 - [Extensiones Futuras](#-extensiones-futuras)
 - [Contribuir](#-contribuir)
 
-## 📺 Origen del Juego
+##  Origen del Juego
 
 ### La Cita Original de Sheldon Cooper
 
@@ -25,7 +25,7 @@ En el episodio "The Lizard-Spock Expansion" de The Big Bang Theory, Sheldon Coop
 
 > *"It's very simple. Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."*
 
-### ¿Por qué Esta Versión?
+### ¿Por qué esta versión?
 
 Sheldon argumenta que la versión tradicional de tres elementos es demasiado limitada y propensa a empates. Al agregar **Lagarto** y **Spock**, se reduce significativamente la probabilidad de empates del 33.3% al 20%, creando un juego más dinámico y estratégico.
 
@@ -33,7 +33,7 @@ Sheldon argumenta que la versión tradicional de tres elementos es demasiado lim
 
 Después de su aparición en la serie, este juego se volvió viral en internet y se convirtió en una referencia cultural popular, siendo adoptado por comunidades de programadores, científicos y fanáticos de la cultura geek en general.
 
-## 🎯 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto implementa una versión completa del juego de Sheldon Cooper como aplicación de consola interactiva. Los usuarios pueden jugar partidas ilimitadas contra la computadora, visualizar estadísticas detalladas y acceder a comandos especiales para mejorar la experiencia de juego.
 
@@ -47,53 +47,53 @@ El proyecto está diseñado para enseñar conceptos fundamentales de programaci�
 - **Manejo de entrada/salida**: Interacción con el usuario
 - **Gestión de estado**: Seguimiento de estadísticas y progreso
 
-## ✨ Características
+##  Características
 
-### 🎮 Funcionalidades del Juego
-- ✅ **Cinco jugadas** disponibles: Piedra, Papel, Tijeras, Lagarto, Spock
-- ✅ **Reglas auténticas** basadas en la explicación de Sheldon Cooper
-- ✅ **Interfaz visual** con emojis representativos para cada jugada
-- ✅ **Oponente inteligente** con selección aleatoria equiprobable
-- ✅ **Explicaciones automáticas** de cada resultado con la regla aplicada
-- ✅ **Sistema de puntuación** en tiempo real
-- ✅ **Partidas ilimitadas** hasta que el usuario decida terminar
+###  Funcionalidades del Juego
+-  **Cinco jugadas** disponibles: Piedra, Papel, Tijeras, Lagarto, Spock
+-  **Reglas auténticas** basadas en la explicación de Sheldon Cooper
+-  **Interfaz visual** con emojis representativos para cada jugada
+-  **Oponente inteligente** con selección aleatoria equiprobable
+-  **Explicaciones automáticas** de cada resultado con la regla aplicada
+-  **Sistema de puntuación** en tiempo real
+-  **Partidas ilimitadas** hasta que el usuario decida terminar
 
-### 📊 Sistema de Estadísticas
-- ✅ **Contador de partidas** jugadas totales
-- ✅ **Registro de victorias** del jugador y la computadora
-- ✅ **Contabilización de empates** 
-- ✅ **Cálculo automático** de porcentaje de victorias
-- ✅ **Visualización clara** de estadísticas acumuladas
+###  Sistema de Estadísticas
+-  **Contador de partidas** jugadas totales
+-  **Registro de victorias** del jugador y la computadora
+-  **Contabilización de empates** 
+-  **Cálculo automático** de porcentaje de victorias
+-  **Visualización clara** de estadísticas acumuladas
 
-### 🛠️ Comandos Especiales
-- ✅ **'reglas'** - Muestra todas las reglas del juego con la cita de Sheldon
-- ✅ **'stats'** - Despliega estadísticas detalladas de la sesión actual
-- ✅ **'salir'** - Termina el juego y muestra resumen final
-- ✅ **Validación robusta** de entrada con mensajes de error descriptivos
+###  Comandos Especiales
+-  **'reglas'** - Muestra todas las reglas del juego con la cita de Sheldon
+-  **'stats'** - Despliega estadísticas detalladas de la sesión actual
+-  **'salir'** - Termina el juego y muestra resumen final
+-  **Validación robusta** de entrada con mensajes de error descriptivos
 
-## 🎲 Reglas del Juego
+##  Reglas del Juego
 
 ### Las 10 Reglas Fundamentales
 
 Como estableció Sheldon Cooper, cada jugada puede vencer exactamente a dos oponentes y ser vencida por dos oponentes:
 
-#### 🪨 Piedra
+####  Piedra
 1. **Piedra aplasta lagarto**
 2. **Piedra aplasta tijeras**
 
-#### 📄 Papel  
+####  Papel  
 3. **Papel cubre piedra**
 4. **Papel desaprueba a Spock**
 
-#### ✂️ Tijeras
+####  Tijeras
 5. **Tijeras cortan papel**
 6. **Tijeras decapitan lagarto**
 
-#### 🦎 Lagarto
+####  Lagarto
 7. **Lagarto envenena a Spock**
 8. **Lagarto se come papel**
 
-#### 🖖 Spock
+####  Spock
 9. **Spock aplasta tijeras**
 10. **Spock vaporiza piedra**
 
@@ -107,7 +107,7 @@ Como estableció Sheldon Cooper, cada jugada puede vencer exactamente a dos opon
 | **Lagarto** | Pierde | Gana | Pierde | Empate | Gana |
 | **Spock** | Gana | Pierde | Gana | Pierde | Empate |
 
-## 💻 Requisitos del Sistema
+##  Requisitos del Sistema
 
 ### Software Necesario
 - **Java JDK 8 o superior** (se recomienda JDK 11 o 17)
@@ -120,7 +120,7 @@ Como estableció Sheldon Cooper, cada jugada puede vencer exactamente a dos opon
 3. **Visual Studio Code** con extensión de Kotlin
 4. **Eclipse** con plugin de Kotlin
 
-## 🚀 Instalación
+##  Instalación
 
 ### Método 1: IntelliJ IDEA (Recomendado para Principiantes)
 
@@ -207,15 +207,15 @@ Como estableció Sheldon Cooper, cada jugada puede vencer exactamente a dos opon
    ./gradlew run
    ```
 
-## 🎮 Uso
+##  Uso
 
 ### Flujo de Juego Típico
 
 1. **Inicio del programa**
    ```
-   🎮 ¡Bienvenido al Juego de Big Bang Theory!
-   🤓 Piedra, Papel, Tijeras, Lagarto, Spock
-   📺 "Como dijo Sheldon Cooper..."
+    ¡Bienvenido al Juego de Big Bang Theory!
+    Piedra, Papel, Tijeras, Lagarto, Spock
+    "Como dijo Sheldon Cooper..."
    ```
 
 2. **Visualización de reglas automática**
@@ -225,11 +225,11 @@ Como estableció Sheldon Cooper, cada jugada puede vencer exactamente a dos opon
 3. **Selección de jugada**
    ```
    Elige tu jugada:
-   1. 🪨 Piedra
-   2. 📄 Papel
-   3. ✂️ Tijeras
-   4. 🦎 Lagarto
-   5. 🖖 Spock
+   1.  Piedra
+   2.  Papel
+   3.  Tijeras
+   4.  Lagarto
+   5.  Spock
    
    Tu elección (1-5): 
    ```
@@ -237,13 +237,13 @@ Como estableció Sheldon Cooper, cada jugada puede vencer exactamente a dos opon
 4. **Resultado de la partida**
    ```
    ========================================
-   Tu jugada: 🖖 Spock
-   Computadora: ✂️ Tijeras
+   Tu jugada:  Spock
+   Computadora:  Tijeras
    ========================================
-   🎉 ¡GANASTE!
-   💡 Spock aplasta tijeras
+    ¡GANASTE!
+    Spock aplasta tijeras
    
-   📊 Puntuación: Tú 1 - 0 Computadora
+    Puntuación: Tú 1 - 0 Computadora
    ```
 
 ### Comandos Especiales Durante el Juego
@@ -266,25 +266,25 @@ Empates: 1
 Porcentaje de victorias: 60.0%
 ========================
 
-🏆 ¡Felicitaciones! Eres el campeón.
-🤓 Como diría Sheldon: "Fascinating! Your pattern recognition is superior."
+ ¡Felicitaciones! Eres el campeón.
+ Como diría Sheldon: "Fascinating! Your pattern recognition is superior."
 
-📺 "Bazinga! Gracias por jugar el juego favorito de Sheldon Cooper."
-🖖 Live long and prosper!
+ "Bazinga! Gracias por jugar el juego favorito de Sheldon Cooper."
+ Live long and prosper!
 ```
 
-## 🏗️ Estructura del Código
+##  Estructura del Código
 
 ### Componentes Principales
 
 #### Enum `Jugada`
 ```kotlin
 enum class Jugada(val emoji: String, val descripcion: String) {
-    PIEDRA("🪨", "Piedra"),
-    PAPEL("📄", "Papel"), 
-    TIJERAS("✂️", "Tijeras"),
-    LAGARTO("🦎", "Lagarto"),
-    SPOCK("🖖", "Spock")
+    PIEDRA("", "Piedra"),
+    PAPEL("", "Papel"), 
+    TIJERAS("", "Tijeras"),
+    LAGARTO("", "Lagarto"),
+    SPOCK("", "Spock")
 }
 ```
 Define las cinco jugadas posibles con representación visual y textual.
@@ -357,7 +357,7 @@ graph TD
     N --> O[Fin]
 ```
 
-## 🧑‍💻 Conceptos de Programación
+##  Conceptos de Programación
 
 ### Para Estudiantes Principiantes
 
@@ -368,13 +368,13 @@ El proyecto demuestra el uso de enums para representar conjuntos fijos de valore
 Se utilizan data classes para estructurar datos relacionados (`Regla`, `Estadisticas`) con funcionalidades automáticas como `toString()`, `equals()`, y `copy()`.
 
 #### Listas e Iteración
-La gestión de reglas mediante listas inmutables y el uso de `find()`, `any()`, y `forEach()` para búsquedas y procesamiento.
+La gestión de reglas mediante listas inmutables y el uso de `find()`, `any()` y `forEach()` para búsquedas y procesamiento.
 
 #### Programación Funcional
-Uso de expresiones lambda, funciones de orden superior, y operaciones de colecciones como `find{}` y `any{}`.
+Uso de expresiones lambda, funciones de orden superior y operaciones de colecciones como `find{}` y `any{}`.
 
 #### Manejo de Estado
-La clase `Estadisticas` demuestra cómo mantener y actualizar el estado de la aplicación de manera controlada.
+La clase `Estadísticas` demuestra cómo mantener y actualizar el estado de la aplicación de manera controlada.
 
 #### Validación de Entrada
 Implementación robusta de validación con múltiples tipos de entrada (números, comandos, texto) y manejo de errores.
@@ -391,7 +391,7 @@ Separación clara de responsabilidades entre clases, encapsulación de datos y m
 #### Generación de Números Aleatorios
 Uso de `kotlin.random.Random` para crear un oponente impredecible pero justo.
 
-## 🎨 Personalización
+##  Personalización
 
 ### Agregar Nuevas Jugadas
 
@@ -401,8 +401,8 @@ Para expandir el juego con jugadas adicionales:
    ```kotlin
    enum class Jugada(val emoji: String, val descripcion: String) {
        // Jugadas existentes...
-       FUEGO("🔥", "Fuego"),
-       AGUA("💧", "Agua")
+       FUEGO(" ", "Fuego"),
+       AGUA(" ", "Agua")
    }
    ```
 
@@ -424,7 +424,7 @@ fun mostrarMensajeDespedida() {
     when {
         // Personalizar mensajes de victoria/derrota
         estadisticas.victoriasJugador > estadisticas.victoriasComputadora -> {
-            println("🏆 Tu mensaje personalizado de victoria")
+            println(" Tu mensaje personalizado de victoria")
         }
     }
 }
@@ -460,7 +460,7 @@ val logros = listOf(
 )
 ```
 
-## 🚀 Extensiones Futuras
+##  Extensiones Futuras
 
 ### Versión 2.0 - Mejoras de Interfaz
 - [ ] **Interfaz gráfica** con JavaFX o Android
@@ -490,30 +490,30 @@ val logros = listOf(
 - [ ] **CI/CD pipeline** con GitHub Actions
 - [ ] **Documentación API** con Swagger
 
-## 🤝 Contribuir
+##  Contribuir
 
 ### Tipos de Contribuciones Bienvenidas
 
 #### Para Principiantes
-- 📝 **Corrección de bugs** menores y typos
-- 🎨 **Mejoras visuales** (emojis, formato, colores)
-- 📚 **Documentación** adicional y ejemplos
-- 🔤 **Traducciones** a otros idiomas
-- 💡 **Ideas y sugerencias** para nuevas funcionalidades
+-  **Corrección de bugs** menores y typos
+-  **Mejoras visuales** (emojis, formato, colores)
+-  **Documentación** adicional y ejemplos
+-  **Traducciones** a otros idiomas
+-  **Ideas y sugerencias** para nuevas funcionalidades
 
 #### Para Desarrolladores Intermedios
-- 🏗️ **Refactoring** de código para mejor legibilidad
-- ⚡ **Optimizaciones** de rendimiento
-- 🧪 **Tests unitarios** y de integración
-- 📱 **Versión Android** del juego
-- 🌐 **Versión web** con Kotlin/JS
+-  **Refactoring** de código para mejor legibilidad
+-  **Optimizaciones** de rendimiento
+-  **Tests unitarios** y de integración
+-  **Versión Android** del juego
+-  **Versión web** con Kotlin/JS
 
 #### Para Desarrolladores Avanzados
-- 🤖 **IA avanzada** para oponente inteligente
-- 🔗 **Backend** con microservicios
-- 📊 **Analytics** y métricas de juego
-- 🏆 **Sistema de competencias** online
-- 🎮 **Game engine** personalizado
+-  **IA avanzada** para oponente inteligente
+-  **Backend** con microservicios
+-  **Analytics** y métricas de juego
+-  **Sistema de competencias** online
+-  **Game engine** personalizado
 
 ### Proceso de Contribución
 
@@ -536,7 +536,7 @@ val logros = listOf(
 
 ---
 
-## 📚 Referencias
+##  Referencias
 
 - **Serie Original**: The Big Bang Theory, Temporada 2, Episodio 8: "The Lizard-Spock Expansion"
 - **Creador del Juego**: Sam Kass (Internet pioneer)
@@ -546,4 +546,4 @@ val logros = listOf(
 
 ---
 
-**¡Bazinga! Que la diversión y el aprendizaje estén contigo! 🖖**
+**¡Bazinga! Que la diversión y el aprendizaje estén contigo! **
