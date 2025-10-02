@@ -1,8 +1,8 @@
-# 🧪 Quiz de Ciencias Físicas
+#  Quiz de Ciencias Físicas
 
 Un sistema de preguntas y respuestas desarrollado en Kotlin para aprender conceptos fundamentales de física de manera interactiva. Perfecto para estudiantes principiantes que quieren practicar programación mientras refuerzan conocimientos científicos.
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 
 - [Descripción del Proyecto](#-descripción-del-proyecto)
 - [Características](#-características)
@@ -14,7 +14,7 @@ Un sistema de preguntas y respuestas desarrollado en Kotlin para aprender concep
 - [Próximas Mejoras](#-próximas-mejoras)
 - [Contribuir](#-contribuir)
 
-## 🎯 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto implementa un sistema de quiz interactivo que presenta preguntas aleatorias de ciencias físicas. Los usuarios pueden responder preguntas de diferentes categorías y dificultades, recibir feedback inmediato y obtener una puntuación final con análisis de rendimiento.
 
@@ -23,25 +23,25 @@ Este proyecto implementa un sistema de quiz interactivo que presenta preguntas a
 - **Ciencias**: Repasar conceptos fundamentales de física
 - **Lógica**: Desarrollar pensamiento algorítmico y estructurado
 
-## ✨ Características
+##  Características
 
-### 🎮 Funcionalidades del Quiz
-- ✅ **Preguntas aleatorias** de física con 4 opciones múltiples
-- ✅ **Categorías organizadas** (Mecánica, Óptica, Termodinámica, etc.)
-- ✅ **Niveles de dificultad** (Fácil, Medio, Difícil)
-- ✅ **Feedback inmediato** con explicaciones educativas
-- ✅ **Sistema de puntuación** con porcentajes y evaluación final
-- ✅ **Progreso visual** mostrando pregunta actual vs total
-- ✅ **Orden aleatorio** en cada ejecución
+###  Funcionalidades del Quiz
+-  **Preguntas aleatorias** de física con 4 opciones múltiples
+-  **Categorías organizadas** (Mecánica, Óptica, Termodinámica, etc.)
+-  **Niveles de dificultad** (Fácil, Medio, Difícil)
+-  **Feedback inmediato** con explicaciones educativas
+-  **Sistema de puntuación** con porcentajes y evaluación final
+-  **Progreso visual** mostrando pregunta actual vs total
+-  **Orden aleatorio** en cada ejecución
 
-### 🔧 Características Técnicas
-- 📱 **Aplicación de consola** fácil de ejecutar
-- 🏗️ **Código modular** con separación de responsabilidades
-- 📊 **Estructuras de datos** bien organizadas
-- 🔄 **Reutilizable** y fácil de expandir
-- 📚 **Comentarios explicativos** para principiantes
+###  Características Técnicas
+-  **Aplicación de consola** fácil de ejecutar
+-  **Código modular** con separación de responsabilidades
+-  **Estructuras de datos** bien organizadas
+-  **Reutilizable** y fácil de expandir
+-  **Comentarios explicativos** para principiantes
 
-## 💻 Requisitos del Sistema
+##  Requisitos del Sistema
 
 ### Software Necesario
 - **Java JDK 8 o superior** (recomendado JDK 11+)
@@ -54,7 +54,7 @@ Este proyecto implementa un sistema de quiz interactivo que presenta preguntas a
 3. **VS Code** con extensión de Kotlin
 4. **Línea de comandos** con kotlinc
 
-## 🚀 Instalación
+##  Instalación
 
 ### Opción 1: IntelliJ IDEA (Recomendada)
 
@@ -145,7 +145,7 @@ Este proyecto implementa un sistema de quiz interactivo que presenta preguntas a
    }
    ```
 
-## 🎮 Uso
+##  Uso
 
 ### Ejecución Básica
 
@@ -171,17 +171,17 @@ Este proyecto implementa un sistema de quiz interactivo que presenta preguntas a
 
 3. **Ver feedback**
    ```
-   ✅ ¡Correcto!
-   💡 El Newton (N) es la unidad de fuerza, definida como kg⋅m/s²
+    ¡Correcto!
+    El Newton (N) es la unidad de fuerza, definida como kg⋅m/s²
    ```
 
 4. **Resultados finales**
    ```
-   🎉 QUIZ COMPLETADO 🎉
+    QUIZ COMPLETADO 
    Preguntas respondidas: 5
    Respuestas correctas: 4
    Puntuación: 80.0%
-   👍 ¡Muy bien! Tiene buenos conocimientos
+    ¡Muy bien! Tiene buenos conocimientos
    ```
 
 ### Comandos Durante la Ejecución
@@ -189,7 +189,7 @@ Este proyecto implementa un sistema de quiz interactivo que presenta preguntas a
 - **Enter**: Confirmar respuesta
 - El programa termina automáticamente al completar todas las preguntas
 
-## 🏗️ Estructura del Código
+##  Estructura del Código
 
 ### Clases Principales
 
@@ -239,7 +239,7 @@ graph TD
     H --> I[Fin]
 ```
 
-## 🎨 Personalización
+##  Personalización
 
 ### Agregar Nuevas Preguntas
 
@@ -280,7 +280,7 @@ enum class Categoria {
 }
 ```
 
-## 🔄 Próximas Mejoras
+##  Próximas Mejoras
 
 ### Versión 2.0 - Funcionalidades Intermedias
 - [ ] **Base de datos SQLite** para almacenar preguntas
@@ -304,7 +304,7 @@ enum class Categoria {
 - [ ] **Quiz de Biología** con imágenes
 - [ ] **Quiz multidisciplinario** combinado
 
-## 🤝 Contribuir
+##  Contribuir
 
 ### Cómo Contribuir
 1. **Fork** el repositorio
@@ -314,12 +314,12 @@ enum class Categoria {
 5. **Crear Pull Request**
 
 ### Tipos de Contribuciones Bienvenidas
-- 📝 **Nuevas preguntas** de ciencias (con fuentes confiables)
-- 🐛 **Corrección de bugs** y errores
-- ✨ **Nuevas funcionalidades** (interfaz gráfica, base de datos)
-- 📚 **Mejoras en documentación** y ejemplos
-- 🎨 **Mejoras en UX/UI** para versiones gráficas
-- 🧪 **Tests unitarios** y validaciones
+-  **Nuevas preguntas** de ciencias (con fuentes confiables)
+-  **Corrección de bugs** y errores
+-  **Nuevas funcionalidades** (interfaz gráfica, base de datos)
+-  **Mejoras en documentación** y ejemplos
+-  **Mejoras en UX/UI** para versiones gráficas
+-  **Tests unitarios** y validaciones
 
 ### Estándares de Código
 - **Kotlin coding conventions**: Seguir estándares oficiales
@@ -329,13 +329,13 @@ enum class Categoria {
 
 ---
 
-## 📞 Contacto y Soporte
+##  Contacto y Soporte
 
 ¿Tiene preguntas o sugerencias? 
-- 📧 Crear un **Issue** en GitHub
-- 💬 Contribuir con **Pull Requests**
-- 📖 Revisar la **documentación** en el código
+-  Crear un **Issue** en GitHub
+-  Contribuir con **Pull Requests**
+-  Revisar la **documentación** en el código
 
 ---
 
-**¡Diviertase aprendiendo programación y física al mismo tiempo! 🚀🧪**
+**¡Diviertase aprendiendo programación y física al mismo tiempo! **
