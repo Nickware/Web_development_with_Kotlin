@@ -1,7 +1,5 @@
 # Kotlin: Lenguaje de Programación Moderno
 
-## ¿Qué es Kotlin?
-
 Kotlin es un lenguaje de programación conciso y multiplataforma de JetBrains que se ha convertido en uno de los lenguajes más populares para el desarrollo de aplicaciones móviles, backend, web y escritorio. Desarrollado por JetBrains, Kotlin es un lenguaje multiplataforma conciso desarrollado por JetBrains y sus colaboradores.
 
 ## Características Principales
