@@ -37,7 +37,7 @@ fun main() {
     embeddedServer(Netty, port = 9590) {
         routing {
             get("/") {
-                call.respondText("¡Ktorx funciona! 🌐")
+                call.respondText("¡Ktorx funciona! ")
             }
         }
     }.start(wait = true)
