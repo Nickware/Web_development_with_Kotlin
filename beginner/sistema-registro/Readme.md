@@ -1,8 +1,8 @@
-# 🎓 Sistema de Asistencia a Eventos Académicos con QR
+# Sistema de Asistencia a Eventos Académicos con QR
 
 Un sistema completo de registro y control de asistencia para eventos académicos desarrollado en Kotlin. La aplicación permite el registro de participantes mediante formularios validados y el control de asistencia a través de códigos QR, diseñado específicamente para instituciones educativas, conferencias, seminarios y eventos académicos.
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 
 - [Descripción del Proyecto](#-descripción-del-proyecto)
 - [Características Principales](#-características-principales)
@@ -19,7 +19,7 @@ Un sistema completo de registro y control de asistencia para eventos académicos
 - [Expansiones Futuras](#-expansiones-futuras)
 - [Contribuir](#-contribuir)
 
-## 🎯 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este sistema digitaliza el proceso tradicional de registro de asistencia en eventos académicos, eliminando las listas de papel y proporcionando un control automatizado, seguro y eficiente. Los participantes se registran una sola vez y pueden acceder a múltiples eventos usando códigos QR únicos.
 
@@ -47,9 +47,9 @@ Este sistema digitaliza el proceso tradicional de registro de asistencia en even
 - **Empresas** - Capacitaciones y eventos corporativos
 - **Estudiantes de programación** - Proyecto de aprendizaje práctico
 
-## ✨ Características Principales
+##  Características Principales
 
-### 📝 Sistema de Registro Completo
+###  Sistema de Registro Completo
 - **Formulario validado** con campos obligatorios y opcionales
 - **Validación en tiempo real** de email, teléfono y contraseñas
 - **Clasificación de participantes** (estudiante, profesor, investigador, etc.)
@@ -57,14 +57,14 @@ Este sistema digitaliza el proceso tradicional de registro de asistencia en even
 - **Generación automática** de IDs únicos
 - **Confirmación inmediata** con todos los datos
 
-### 🔒 Validaciones de Seguridad
+###  Validaciones de Seguridad
 - **Emails** - Validación con expresiones regulares RFC compliant
 - **Teléfonos** - Formato internacional con limpieza automática
 - **Contraseñas seguras** - Mínimo 8 caracteres, mayúsculas, minúsculas y números
 - **Nombres** - Solo caracteres alfabéticos y acentos permitidos
 - **Prevención de duplicados** - Control de registros múltiples
 
-### 📱 Sistema de Códigos QR
+###  Sistema de Códigos QR
 - **Generación automática** de códigos únicos por evento
 - **Simulador integrado** de escaneo para testing
 - **Validación cruzada** de participante, evento y código
@@ -72,7 +72,7 @@ Este sistema digitaliza el proceso tradicional de registro de asistencia en even
 - **Registro de metadata** (timestamp, IP, dispositivo)
 - **Códigos reutilizables** con contador de usos
 
-### 🎓 Gestión de Eventos Académicos
+###  Gestión de Eventos Académicos
 - **Tipos de eventos** - Conferencia, seminario, taller, congreso, webinar
 - **Control de capacidad** máxima y disponibilidad
 - **Programación temporal** con fechas de inicio y fin
@@ -80,7 +80,7 @@ Este sistema digitaliza el proceso tradicional de registro de asistencia en even
 - **Códigos de acceso** únicos por evento
 - **Gestión de múltiples eventos** simultáneos
 
-### 📊 Sistema de Reportes y Analytics
+###  Sistema de Reportes y Analytics
 - **Estadísticas en tiempo real** por evento
 - **Porcentajes de ocupación** y asistencia efectiva
 - **Desglose demográfico** por tipo de participante
@@ -88,7 +88,7 @@ Este sistema digitaliza el proceso tradicional de registro de asistencia en even
 - **Exportación de datos** en formato tabular
 - **Reportes históricos** con timestamps precisos
 
-## 🏫 Casos de Uso
+##  Casos de Uso
 
 ### Instituciones Educativas
 
@@ -131,7 +131,7 @@ Requerimiento: Registro preciso para networking
 Beneficio: Base de datos de contactos automática
 ```
 
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 ### Patrón de Diseño: MVC Simplificado
 
@@ -178,7 +178,7 @@ graph TD
 - Simulador de QR
 ```
 
-## 💻 Requisitos del Sistema
+##  Requisitos del Sistema
 
 ### Software Base
 - **Java JDK 8+** (recomendado JDK 11 o 17)
@@ -202,7 +202,7 @@ dependencies {
 }
 ```
 
-## 🚀 Instalación
+##  Instalación
 
 ### Método 1: IntelliJ IDEA (Recomendado)
 
@@ -314,7 +314,7 @@ kotlin {
 
 #### 1. Inicio del Sistema
 ```
-🎓 SISTEMA DE ASISTENCIA A EVENTOS ACADÉMICOS
+ SISTEMA DE ASISTENCIA A EVENTOS ACADÉMICOS
 ============================================================
 
 📋 MENÚ PRINCIPAL:
