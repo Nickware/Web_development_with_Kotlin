@@ -1,6 +1,6 @@
 # Análisis de datos completos en Kotlin
 
-Este es un **script de análisis de datos completo en Kotlin** que demuestra un pipeline integral de procesamiento y visualización de datos. Te explico sus componentes principales:
+Este es un **script de análisis de datos completo en Kotlin** que demuestra un pipeline integral de procesamiento y visualización de datos. A continuación se explica sus componentes principales:
 
 ##  Propósito General
 
