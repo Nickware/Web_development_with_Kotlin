@@ -59,12 +59,3 @@ Se puede ampliar este sistema:
 - Guardando la información en archivos.
 - Creando una interfaz gráfica.
 
-## Licencia
-
-MIT License.
-
----
-
-**Autor:** N.Torres  
-**Propósito:** Ejemplo de aprendizaje con Kotlin para usuarios de IntelliJ IDEA
-
