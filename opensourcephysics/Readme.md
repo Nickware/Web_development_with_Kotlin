@@ -9,7 +9,7 @@ Crear una **app Android nativa en Kotlin**, usando **Jetpack Compose**, que ejec
 
 ---
 
-## 🧱 Arquitectura propuesta (capas limpias)
+## Arquitectura propuesta (capas limpias)
 
 ```
 [ Capa de Presentación ]   ← Jetpack Compose (UI en Android)
@@ -168,7 +168,7 @@ fun SimulationScreen(viewModel: SimulationViewModel) {
 
 ---
 
-## 🌱 Visión a mediano plazo
+##  Visión a mediano plazo
 
 Una vez validada esta simulación:
 - **Generalizar el motor**: crea una interfaz `PhysicsModel` que permita conectar cualquier simulación OSP.
