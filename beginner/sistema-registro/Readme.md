@@ -26,18 +26,18 @@ Este sistema digitaliza el proceso tradicional de registro de asistencia en even
 ### Problemática que Resuelve
 
 **Métodos tradicionales:**
-- ❌ Listas de papel propensas a pérdidas
-- ❌ Proceso lento de verificación manual
-- ❌ Errores de transcripción de nombres
-- ❌ Dificultad para generar reportes
-- ❌ Imposibilidad de control en tiempo real
+-  Listas de papel propensas a pérdidas
+-  Proceso lento de verificación manual
+-  Errores de transcripción de nombres
+-  Dificultad para generar reportes
+-  Imposibilidad de control en tiempo real
 
 **Solución digital:**
-- ✅ Registro digital permanente e inmutable
-- ✅ Verificación instantánea mediante QR
-- ✅ Validación automática de datos
-- ✅ Reportes automáticos y estadísticas
-- ✅ Monitoreo en tiempo real de asistencia
+-  Registro digital permanente e inmutable
+-  Verificación instantánea mediante QR
+-  Validación automática de datos
+-  Reportes automáticos y estadísticas
+-  Monitoreo en tiempo real de asistencia
 
 ### Público Objetivo
 
