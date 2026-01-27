@@ -1,4 +1,4 @@
-# Carpeta `basic_example` en kotlin
+# Ejemplo básico en kotlin
 
 ## Estructura de archivos
 
@@ -49,8 +49,6 @@ Este código define un servidor web simple que responde con un mensaje de texto 
 ## Resumen breve
 
 La carpeta `basic_example` contiene un proyecto Kotlin básico configurado con Gradle, que implementa un servidor web usando Ktor y cuenta con soporte para manipulación de datos tabulares, ideal para aprendizaje y experimentación con Kotlin en backend y ciencia de datos.
-
-<div style="text-align: center">⁂</div>
 
 [^1]: https://github.com/Nickware/kotlin/tree/main/basic_example
 
