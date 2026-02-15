@@ -27,7 +27,7 @@ Este es un **ejemplo educativo** de un sistema sencillo para gestionar estudiant
 
 1. Clonar este repositorio o copiar el archivo Kotlin en el proyecto:
     ```
-    git clone <tu-repositorio>
+    git clone <repositorio>
     ```
 2. Abrir el archivo en **IntelliJ IDEA**.
 3. Ejecutar el archivo `main.kt` directamente.
