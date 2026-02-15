@@ -157,9 +157,9 @@ fun SimulationScreen(viewModel: SimulationViewModel) {
 ## Paso 5: Lanzamiento (Release)
 
 ### Opciones:
-- **Versión beta interna**: distribuir mediante **Google Play Console (Internal Testing)** a docentes y estudiantes de tu facultad.
-- **Versión pública**: si el prototipo escalar, lánzalar como app educativa gratuita (ej. *"OSP Mobile: Física en tu bolsillo"*).
-- **Código abierto**: publicar en GitHub con licencia MIT o GPL, invitando a otras universidades a contribuir.
+- **Versión beta interna**: distribuir mediante **Google Play Console (Internal Testing)**.
+- **Versión pública**: si el prototipo escalar, lanzar como app educativa gratuita (ej. *"OSP Mobile: Física en tu bolsillo"*).
+- **Código abierto**: publicar en GitHub con licencia MIT o GPL, invitando a instituciones para contribuir.
 
 ### Requisitos técnicos mínimos:
 - Android 8.0+ (API 26)
