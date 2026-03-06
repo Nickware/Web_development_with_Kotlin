@@ -8,7 +8,7 @@ Es una aplicación de análisis de datos que integra múltiples fuentes (archivo
 
 ##  Estructura del Pipeline
 
-El script ejecuta **7 fases secuenciales**:
+El script ejecuta 7 fases secuenciales
 
 ### **Fase 1: Carga de Datos Locales**
 - Lee archivos CSV (ventas) y JSON (productos)
