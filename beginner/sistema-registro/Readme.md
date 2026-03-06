@@ -1021,13 +1021,13 @@ Participantes sin teléfono:             5 personas (3.0%)
 
 OBSERVACIONES Y RECOMENDACIONES
 --------------------------------------------------------------------------------
-✅ Excelente tasa de conversión (90.3%)
-✅ Distribución equilibrada por tipo de participante
-✅ Participación diversa de instituciones
-⚠️  Pico de llegadas en apertura - considerar más tiempo para registro
-⚠️  Llegadas tardías significativas - mejorar comunicación de horarios
-💡 Mayor participación de pregrado que posgrado - ajustar contenido
-💡 Instituciones públicas vs privadas: 62% vs 38%
+ - Excelente tasa de conversión (90.3%)
+ - Distribución equilibrada por tipo de participante
+ - Participación diversa de instituciones
+ - Pico de llegadas en apertura - considerar más tiempo para registro
+ - Llegadas tardías significativas - mejorar comunicación de horarios
+ - Mayor participación de pregrado que posgrado - ajustar contenido
+ - Instituciones públicas vs privadas: 62% vs 38%
 
 DATOS PARA SEGUIMIENTO
 --------------------------------------------------------------------------------
