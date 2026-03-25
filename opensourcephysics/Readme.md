@@ -1,6 +1,6 @@
 # Diseño para migrar una simulación de *Open Source Physics* (OSP) a Android, usando **Jetpack Compose** 
 
-A cotninuación se propone un **plan concreto y ejecutable** para migrar una simulación de *Open Source Physics* (OSP) a Android, usando **Jetpack Compose** (**JetBrains**) y el ecosistema **Jetpack** de Android), con enfoque en **evaluación pedagógica, pruebas técnicas y lanzamiento real**.
+A continuación se propone un plan para migrar una simulación de *Open Source Physics* (OSP) a Android, usando **Jetpack Compose** (**JetBrains**) y el ecosistema **Jetpack** de Android, con enfoque en **evaluación pedagógica, pruebas técnicas y lanzamiento real**.
 
 ---
 
@@ -24,7 +24,7 @@ Crear una **app Android nativa en Kotlin**, usando **Jetpack Compose**, que ejec
 ## Paso 1: Preparar el **módulo científico (osp-core)**
 
 ### Acción:
-- Eligir una simulación existente de OSP (por ejemplo, `ProjectileAirResistance.java` de un paquete tipo `org.opensourcephysics.example`).
+- Elegir una simulación existente de OSP (por ejemplo, `ProjectileAirResistance.java` de un paquete tipo `org.opensourcephysics.example`).
 - Extraer **solo la lógica de integración numérica y cálculos físicos**:
   - Estado: posición, velocidad, tiempo.
   - Método: `step(dt)` o `evolve()`.
@@ -149,7 +149,7 @@ fun SimulationScreen(viewModel: SimulationViewModel) {
    - Usar `TestCoroutineDispatcher` para controlar el tiempo.
 
 3. **Pruebas de usabilidad**:
-   - Prototipo en 3–5 estudiantes: ¿entienden los controles? ¿ven la física claramente?
+   - Prototipo en 3–5 estudiantes: ¿Entienden los controles? ¿Ven la física claramente?
    - Usar cuestionarios breves (Google Forms) o observación directa.
 
 ---
@@ -158,8 +158,8 @@ fun SimulationScreen(viewModel: SimulationViewModel) {
 
 ### Opciones:
 - **Versión beta interna**: distribuir mediante **Google Play Console (Internal Testing)**.
-- **Versión pública**: si el prototipo escalar, lanzar como app educativa gratuita (ej. *"OSP Mobile: Física en tu bolsillo"*).
-- **Código abierto**: publicar en GitHub con licencia MIT o GPL, invitando a instituciones para contribuir.
+- **Versión pública**: si el prototipo escala, lanzar como app educativa gratuita (ej. *"OSP Mobile: Física en tu bolsillo"*).
+- **Código abierto**: publicar en GitHub con licencia MIT o GPL, invitando a instituciones a contribuir.
 
 ### Requisitos técnicos mínimos:
 - Android 8.0+ (API 26)
