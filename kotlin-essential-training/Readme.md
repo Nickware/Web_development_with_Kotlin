@@ -27,9 +27,9 @@ Perfecto para desarrolladores que:
 - Quieren aprender Kotlin desde cero.
 - Buscan crear aplicaciones de línea de comandos.
 - Necesitan entender funciones, colecciones y operaciones I/O.
-- Planean migrar desde Java o explorar desarrollo Android/backend.
+- Planean migrar desde Java o explorar el desarrollo Android/backend.
 
-Este curso proporciona una base sólida para luego avanzar a desarrollo móvil, web o ciencia de datos con Kotlin, temas que hemos discutido previamente en nuestra conversación.
+Este curso proporciona una base sólida para luego avanzar al desarrollo móvil, web o ciencia de datos con Kotlin.
 
 [1](https://www.linkedin.com/learning/kotlin-essential-training-functions-collections-and-i-o)
 [2](https://github.com/LinkedInLearning/kotlin-essential-training-functions-collections-and-io-3008787)
