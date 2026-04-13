@@ -2,12 +2,8 @@
 
 A continuación se propone un plan para migrar una simulación de *Open Source Physics* (OSP) a Android, usando **Jetpack Compose** (**JetBrains**) y el ecosistema **Jetpack** de Android, con enfoque en **evaluación pedagógica, pruebas técnicas y lanzamiento real**.
 
----
-
 ## Objetivo
 Crear una **app Android nativa en Kotlin**, usando **Jetpack Compose**, que ejecute una simulación física de OSP (por ejemplo, *movimiento parabólico con resistencia del aire*), reutilizando su lógica científica sin alterarla, y que esté lista para ser **probada con estudiantes, evaluada formativamente y publicada**.
-
----
 
 ## Arquitectura propuesta (capas limpias)
 
@@ -18,8 +14,6 @@ Crear una **app Android nativa en Kotlin**, usando **Jetpack Compose**, que ejec
             ↑
 [ Capa de Datos / Motor ]  ← Módulo "osp-core" (Java/Kotlin, sin UI)
 ```
-
----
 
 ## Paso 1: Preparar el **módulo científico (osp-core)**
 
@@ -60,8 +54,6 @@ class ProjectileModel(
 
 > Este código puede estar en **Java** o **Kotlin**; si está en Java, Kotlin lo usará sin problemas.
 
----
-
 ## Paso 2: Crear la app Android con **Jetpack Compose**
 
 ### Estructura del proyecto (Gradle multi-módulo):
@@ -81,8 +73,6 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
 }
 ```
-
----
 
 ## Paso 3: Diseñar la UI con Jetpack Compose
 
@@ -134,8 +124,6 @@ fun SimulationScreen(viewModel: SimulationViewModel) {
 }
 ```
 
----
-
 ## Paso 4: Pruebas (Testing)
 
 ### Niveles:
@@ -152,8 +140,6 @@ fun SimulationScreen(viewModel: SimulationViewModel) {
    - Prototipo en 3–5 estudiantes: ¿Entienden los controles? ¿Ven la física claramente?
    - Usar cuestionarios breves (Google Forms) o observación directa.
 
----
-
 ## Paso 5: Lanzamiento (Release)
 
 ### Opciones:
@@ -166,11 +152,9 @@ fun SimulationScreen(viewModel: SimulationViewModel) {
 - Soporte para pantallas de 5" a 10"
 - Sin dependencia de internet (todo offline)
 
----
-
 ##  Visión a mediano plazo
 
 Una vez validada esta simulación:
-- **Generalizar el motor**: crea una interfaz `PhysicsModel` que permita conectar cualquier simulación OSP.
+- **Generalizar el motor**: crear una interfaz `PhysicsModel` que permita conectar cualquier simulación OSP.
 - **Construir un “catálogo”**: lista de simulaciones descargables o integradas.
 - **Agrega exportación de datos**: CSV, gráficos, comparación con datos reales (¡integración futura con Tracker móvil!).
