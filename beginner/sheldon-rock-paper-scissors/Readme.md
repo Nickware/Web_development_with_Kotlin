@@ -1,6 +1,6 @@
 #  Piedra, Papel, Tijeras, Lagarto, Spock
 
-Un juego de consola desarrollado en Kotlin basado en la versión expandida del clásico "Piedra, Papel, Tijeras" popularizada por el personaje Sheldon Cooper en la serie de televisión "The Big Bang Theory". Este proyecto está diseñado para estudiantes de programación de nivel principiante que desean practicar conceptos fundamentales mientras se divierten con un juego icónico de la cultura pop.
+Un juego de consola desarrollado en Kotlin basado en la versión expandida del clásico "Piedra, Papel, Tijeras" popularizada por el personaje Sheldon Cooper en la serie de televisión "The Big Bang Theory". Este proyecto está diseñado para estudiantes de programación de nivel principiante que desean practicar conceptos fundamentales de un juego icónico de la cultura pop.
 
 ##  Tabla de Contenidos
 
