@@ -324,18 +324,8 @@ enum class Categoria {
 ### Estándares de Código
 - **Kotlin coding conventions**: Seguir estándares oficiales
 - **Comentarios explicativos**: Especialmente para principiantes
-- **Nombres descriptivos**: Variables y funciones claras
+- **Nombres descriptivos**: variables y funciones claras
 - **Modularidad**: Separar responsabilidades en clases/funciones
 
----
 
-##  Contacto y Soporte
-
-¿Tiene preguntas o sugerencias? 
--  Crear un **Issue** en GitHub
--  Contribuir con **Pull Requests**
--  Revisar la **documentación** en el código
-
----
-
-**¡Diviertase aprendiendo programación y física al mismo tiempo! **
+**¡Diviértase aprendiendo programación y física al mismo tiempo! **
