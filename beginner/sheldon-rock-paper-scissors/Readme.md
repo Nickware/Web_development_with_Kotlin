@@ -256,9 +256,9 @@ Como estableció Sheldon Cooper, cada jugada puede vencer exactamente a dos opon
 
 Al terminar el juego, se presenta un resumen completo:
 ```
-🎭 === JUEGO TERMINADO ===
+ === JUEGO TERMINADO ===
 
-📊 === ESTADÍSTICAS ===
+ === ESTADÍSTICAS ===
 Partidas jugadas: 10
 Tus victorias: 6
 Victorias de la computadora: 3
