@@ -63,7 +63,7 @@ El script ejecuta 7 fases secuenciales
 ##  Tecnologías Utilizadas
 
 - **Kotlin DataFrame**: Manipulación de datos estilo pandas
-- **Kandy**: Visualizaciones (mencionada en comentarios)
+- **Kandy**: Visualizaciones (mencionadas en comentarios)
 - **Ktor**: Cliente HTTP para APIs
 - **Exposed**: ORM para bases de datos
 - **Kotlinx Coroutines**: Programación asíncrona
