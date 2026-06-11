@@ -78,7 +78,7 @@ dependencies {
 
 ### Componentes clave:
 - **Canvas personalizado** para dibujar la trayectoria en tiempo real.
-- **Controles deslizantes** para modificar parámetros (ángulo, velocidad, arrastre).
+- **Controles deslizantes** para modificar los parámetros (ángulo, velocidad, arrastre).
 - **Botones**: *Iniciar*, *Pausar*, *Reiniciar*.
 - **Métricas en vivo**: posición, tiempo, energía.
 
