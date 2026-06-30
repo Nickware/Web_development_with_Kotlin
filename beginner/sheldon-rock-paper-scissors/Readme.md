@@ -543,7 +543,3 @@ val logros = listOf(
 - **Popularizado por**: Sheldon Cooper (personaje de Jim Parsons)
 - **Kotlin Documentation**: [kotlinlang.org](https://kotlinlang.org/docs/)
 - **The Big Bang Theory Wiki**: [bigbangtheory.fandom.com](https://bigbangtheory.fandom.com/)
-
----
-
-**¡Bazinga! Que la diversión y el aprendizaje estén contigo! **
