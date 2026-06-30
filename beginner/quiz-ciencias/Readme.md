@@ -326,6 +326,3 @@ enum class Categoria {
 - **Comentarios explicativos**: Especialmente para principiantes
 - **Nombres descriptivos**: variables y funciones claras
 - **Modularidad**: Separar responsabilidades en clases/funciones
-
-
-**¡Diviértase aprendiendo programación y física al mismo tiempo! **
