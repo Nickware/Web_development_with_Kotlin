@@ -2,26 +2,26 @@
 
 ## Estructura de archivos
 
-- **.gitignore**: Archivo para excluir archivos/directorios del control de versiones.
-- **.idea**: Carpeta de configuración de IntelliJ IDEA (IDE recomendado para Kotlin).
-- **build.gradle.kts**: Script de construcción del proyecto usando Gradle con Kotlin DSL.
-- **gradle.properties**: Propiedades específicas del proyecto (e.g., estilo de código oficial).
-- **gradle**: Carpeta de instalación local de Gradle.
-- **gradlew**: Script de ejecución de Gradle para Unix/Linux.
-- **gradlew.bat**: Script de ejecución de Gradle para Windows.
-- **settings.gradle.kts**: Configuración del nombre y plugins del proyecto.
-- **src**: Carpeta principal del código fuente (Kotlin).
+- .gitignore: Archivo para excluir archivos/directorios del control de versiones.
+- .idea**: Carpeta de configuración de IntelliJ IDEA (IDE recomendado para Kotlin).
+- build.gradle.kts: Script de construcción del proyecto usando Gradle con Kotlin DSL.
+- gradle.properties: Propiedades específicas del proyecto (e.g., estilo de código oficial).
+- gradle: Carpeta de instalación local de Gradle.
+- gradlew: Script de ejecución de Gradle para Unix/Linux.
+- gradlew.bat: Script de ejecución de Gradle para Windows.
+- settings.gradle.kts: Configuración del nombre y plugins del proyecto.
+- src: Carpeta principal del código fuente (Kotlin).
 
 
 ## Propósito y configuración
 
-- **Lenguaje y versión:** Proyecto Kotlin con soporte para Java 21 (también compatible con Java 17 LTS).
-- **Dependencias principales:**
+- Lenguaje y versión: Proyecto Kotlin con soporte para Java 21 (también compatible con Java 17 LTS).
+- Dependencias principales:
     - `kotlin("stdlib")`: Biblioteca estándar de Kotlin.
     - `io.ktor:ktor-server-core` y `io.ktor:ktor-server-netty`: Framework Ktor para crear servidores web en Kotlin.
     - `org.jetbrains.kotlinx:dataframe`: Librería para manipulación de datos tabulares (ciencia de datos/ingeniería de datos).
-- **Aplicación:** Ejemplo básico de servidor web con Ktor.
-- **Configuración de Gradle:** Utiliza Kotlin DSL para la configuración del proyecto.
+- Aplicación: Ejemplo básico de servidor web con Ktor.
+- Configuración de Gradle: Utiliza Kotlin DSL para la configuración del proyecto.
 
 
 ## Ejemplo de código principal
