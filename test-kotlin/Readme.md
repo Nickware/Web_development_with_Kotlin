@@ -1,6 +1,6 @@
 # Sistema de Gestión de Estudiantes en Kotlin
 
-Este es un **ejemplo educativo** de un sistema sencillo para gestionar estudiantes, realizado en el lenguaje **Kotlin** y pensado para ser probado en **IntelliJ IDEA 2025.1.2**. El proyecto muestra cómo trabajar con clases de datos, colecciones, funciones de extensión, manejo seguro de valores nulos y otras características modernas del lenguaje.
+Este es un ejemplo educativo de un sistema sencillo para gestionar estudiantes, realizado en el lenguaje Kotlin y pensado para ser probado en IntelliJ IDEA 2025.1.2. El proyecto muestra cómo trabajar con clases de datos, colecciones, funciones de extensión, manejo seguro de valores nulos y otras características modernas del lenguaje.
 
 ## Características
 
@@ -20,8 +20,8 @@ Este es un **ejemplo educativo** de un sistema sencillo para gestionar estudiant
 
 ## Requisitos
 
-- **Kotlin** 1.8 o superior.
-- **IntelliJ IDEA** 2024.1 o superior (opcional pero recomendado para una mejor experiencia).
+- Kotlin 1.8 o superior.
+- IntelliJ IDEA 2024.1 o superior (opcional pero recomendado para una mejor experiencia).
 
 ## Uso
 
@@ -29,7 +29,7 @@ Este es un **ejemplo educativo** de un sistema sencillo para gestionar estudiant
     ```
     git clone <repositorio>
     ```
-2. Abrir el archivo en **IntelliJ IDEA**.
+2. Abrir el archivo en IntelliJ IDEA.
 3. Ejecutar el archivo `main.kt` directamente.
 4. Observar el resultado en la consola: se mostrarán los estudiantes registrados, sus materias, promedios y estadísticas útiles.
 
